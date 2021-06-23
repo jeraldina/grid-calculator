@@ -1,5 +1,7 @@
 body {
-    background-color: #FFFFFF;
+    background: rgb(23,34,107);
+background: linear-gradient(90deg, rgba(23,34,107,1) 0%, rgba(8,108,183,1) 25%, rgba(15,0,230,0.5634628851540616) 50%, rgba(169,0,230,0.5634628851540616) 75%, rgba(230,0,197,0.5634628851540616) 100%);
+    /* background-color: #FFFFFF; */
     text-align: center;
     margin: auto;
     display: flex;
@@ -11,21 +13,23 @@ body {
     font-style: normal;
     font-size: 100%;
 }
+
 .calcBody {
-padding: 50px;
-background-color: #a7a6a6;
-max-width: 840px;
-margin: 50px;
+    padding: 50px;
+    background: rgb(23,34,107);
+    background: linear-gradient(90deg, rgba(23,34,107,1) 0%, rgba(29,32,107,0.20772058823529416) 24%, rgba(29,32,107,0.7231267507002801) 56%, rgba(29,32,107,0.458420868347339) 78%);
+    max-width: 840px;
+    margin: 50px;
 }
 .numberButtons {
-    background-color: #716f6f;
+    background-color: #17226b;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
   }
@@ -37,31 +41,31 @@ margin: 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
   }
   .equalButton {
-    background-color: #b4e4ae;
+    background-color: #69e958;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 28px;
     margin: 4px 2px;
     cursor: pointer;
   }
   .clearButton {
-    background-color: #efa4a4;
+    background-color: #ea4d4d;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 35px;
     margin: 4px 2px;
     cursor: pointer;
   }
